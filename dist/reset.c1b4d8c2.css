@@ -1,0 +1,32 @@
+*, :before, :after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100dvh;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+}
+
+video, svg, img, picture {
+  max-width: 100%;
+  display: block;
+}
+
+input, select, textarea, button {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+/*# sourceMappingURL=reset.c1b4d8c2.css.map */
